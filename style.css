@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cccccc;
+  color: white;
+}
+
+.bg {
+  background-image: url("imagem.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 100px 0px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.pai {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tamanho {
+  font-size: 4rem;
+  margin: 0 4rem;
+  line-height: 1;
+}
+
+.countdown-el span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
